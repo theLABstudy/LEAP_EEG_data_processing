@@ -90,7 +90,7 @@ if run_happe
         for i_a = 1:n_ages
             age = age_groups{i_a};
             age_path = fullfile(data_path,subdir,age);
-            HAPPE_v3_BCH_20230331(age_path,rerun,run_tag{i_p},param_path);
+            HAPPE_v3_BCH(age_path,rerun,run_tag{i_p},param_path);
         end
     end
 end
